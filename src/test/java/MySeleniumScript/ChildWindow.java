@@ -11,7 +11,7 @@ public class ChildWindow {
     public static void main(String[] args) throws InterruptedException {
     	String exePath = "C:\\Users\\azeem\\eclipse-workspace\\GitDemoProj\\Drivers\\chromedriver.exe";
     	System.setProperty("webdriver.chrome.driver", exePath);
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();    
         driver.manage().window().maximize();
         driver.get("https://demoqa.com/browser-windows");
 
