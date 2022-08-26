@@ -12,7 +12,7 @@ public class ChildWindow {
     	String exePath = "C:\\Users\\azeem\\eclipse-workspace\\GitDemoProj\\Drivers\\chromedriver.exe";
     	System.setProperty("webdriver.chrome.driver", exePath);
         WebDriver driver = new ChromeDriver();    
-        driver.manage().window().maximize();
+        driver.manage().window().maximize();     
         driver.get("https://demoqa.com/browser-windows");
 
         // Open new child window within the main window
